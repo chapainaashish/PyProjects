@@ -1,0 +1,640 @@
+1644681847957	geckodriver	INFO	Listening on 127.0.0.1:49667
+1644681847971	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofilenCwpJF"
+
+(firefox:1999): Gtk-WARNING **: 21:49:09.988: Locale not supported by C library.
+	Using the fallback 'C' locale.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1644681855016	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilenCwpJF/search.json.mozlz4", (void 0)))
+1644681860868	Marionette	INFO	Listening on port 33297
+1644681861168	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+ATTENTION: default value of option mesa_glthread overridden by environment.
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iqES4/yq/l/en_US/KUuitOPEFk5.js?_nc_x=Ij3Wp8lg5Kz, line 20: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.facebook.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1644681871124	Marionette	INFO	Stopped listening on port 33297
+JavaScript error: resource://devtools/client/jsonview/Sniffer.jsm, line 53: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIChannel.contentType]
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1644682177309	geckodriver	INFO	Listening on 127.0.0.1:55543
+1644682177320	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileCfsTWf"
+
+(firefox:3090): Gtk-WARNING **: 21:54:37.434: Locale not supported by C library.
+	Using the fallback 'C' locale.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1644682179324	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileCfsTWf/search.json.mozlz4", (void 0)))
+1644682183333	Marionette	INFO	Listening on port 33189
+1644682183369	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+JavaScript error: https://www.instagram.com/, line 55: TypeError: window.__bufferedErrors is undefined
+JavaScript error: https://www.instagram.com/, line 55: TypeError: window.__bufferedErrors is undefined
+1644682263913	geckodriver	INFO	Listening on 127.0.0.1:35661
+1644682263926	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofilecI7do8"
+
+(firefox:3374): Gtk-WARNING **: 21:56:04.044: Locale not supported by C library.
+	Using the fallback 'C' locale.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1644682266418	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilecI7do8/search.json.mozlz4", (void 0)))
+1644682271174	Marionette	INFO	Listening on port 37337
+1644682271260	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1644682271922	Marionette	INFO	Stopped listening on port 33189
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1644682292902	Marionette	INFO	Stopped listening on port 37337
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1644682303066	geckodriver	INFO	Listening on 127.0.0.1:58971
+1644682304071	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileqlayPP"
+
+(firefox:3696): Gtk-WARNING **: 21:56:44.117: Locale not supported by C library.
+	Using the fallback 'C' locale.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1644682305480	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileqlayPP/search.json.mozlz4", (void 0)))
+1644682309360	Marionette	INFO	Listening on port 46351
+1644682309493	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 567"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:567:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 567, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 567: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 567"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:567:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 567, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 567: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+1644682464974	geckodriver	INFO	Listening on 127.0.0.1:54007
+1644682465979	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileaBlSMj"
+
+(firefox:4088): Gtk-WARNING **: 21:59:26.025: Locale not supported by C library.
+	Using the fallback 'C' locale.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1644682468031	Marionette	INFO	Marionette enabled
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1644682469819	Marionette	INFO	Stopped listening on port 46351
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileaBlSMj/search.json.mozlz4", (void 0)))
+1644682473608	Marionette	INFO	Listening on port 45391
+1644682473681	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1644682491418	Marionette	INFO	Stopped listening on port 45391
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1644682535449	geckodriver	INFO	Listening on 127.0.0.1:34645
+1644682536453	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileM67UKI"
+
+(firefox:4393): Gtk-WARNING **: 22:00:36.499: Locale not supported by C library.
+	Using the fallback 'C' locale.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1644682537618	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileM67UKI/search.json.mozlz4", (void 0)))
+1644682541581	Marionette	INFO	Listening on port 43683
+1644682541743	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.instagram.com/, line 55: TypeError: window.__bufferedErrors is undefined
+JavaScript error: https://www.instagram.com/, line 55: TypeError: window.__bufferedErrors is undefined
+JavaScript error: https://www.instagram.com/, line 55: TypeError: window.__bufferedErrors is undefined
+JavaScript error: https://www.instagram.com/, line 55: TypeError: window.__bufferedErrors is undefined
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 567"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:567:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 567, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 567: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+JavaScript error: https://www.instagram.com/, line 55: TypeError: window.__bufferedErrors is undefined
+JavaScript error: https://www.instagram.com/, line 55: TypeError: window.__bufferedErrors is undefined
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:244:34
+emit@resource://devtools/shared/event-emitter.js:190:18
+emit@resource://devtools/shared/event-emitter.js:342:18
+getMutations@resource://devtools/client/fronts/walker.js:311:10
+
+console.error: "Error while calling actor 'pagestyle's method 'getLayout'" "node is null"
+console.error: (new TypeError("node is null", "resource://devtools/server/actors/page-style.js", 1001))
+console.error: (new Error("Protocol error (TypeError): node is null from: server0.conn0.windowGlobal2147483654/pagestyle30 (resource://devtools/server/actors/page-style.js:1001:5)", "resource://devtools/shared/protocol/Front.js", 365))
+JavaScript error: https://www.instagram.com/static/bundles/es6/Consumer.js/156b7ceca40e.js, line 42: OZ_SOURCE_BUFFER: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: https://www.instagram.com/static/bundles/es6/oz-player.main.js/2ffc54dd74e0.js, line 33: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 567"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:567:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 567, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 567: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+1644682956483	geckodriver	INFO	Listening on 127.0.0.1:56565
+1644682956486	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileWP0yiG"
+
+(firefox:5087): Gtk-WARNING **: 22:07:36.561: Locale not supported by C library.
+	Using the fallback 'C' locale.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1644682958715	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileWP0yiG/search.json.mozlz4", (void 0)))
+1644682962951	Marionette	INFO	Listening on port 33549
+1644682963086	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 567"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:567:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 567, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 567: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1644683103212	Marionette	INFO	Stopped listening on port 33549
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1644683106434	Marionette	INFO	Stopped listening on port 43683
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3A0078,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+1644683113104	geckodriver	INFO	Listening on 127.0.0.1:44407
+1644683114110	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofilewJY0e7"
+
+(firefox:5497): Gtk-WARNING **: 22:10:14.169: Locale not supported by C library.
+	Using the fallback 'C' locale.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1644683115452	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilewJY0e7/search.json.mozlz4", (void 0)))
+1644683119563	Marionette	INFO	Listening on port 33961
+1644683119717	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 567"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:567:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 567, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 567: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1644683221802	Marionette	INFO	Stopped listening on port 33961
+1644683227843	geckodriver	INFO	Listening on 127.0.0.1:50821
+1644683228848	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofilegglAiv"
+
+(firefox:5845): Gtk-WARNING **: 22:12:08.914: Locale not supported by C library.
+	Using the fallback 'C' locale.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1644683230107	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilegglAiv/search.json.mozlz4", (void 0)))
+1644683234038	Marionette	INFO	Listening on port 41647
+1644683234191	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.instagram.com/p/CZ3AiSntkjO/?utm_source=ig_web_copy_link, line 52: TypeError: window.__bufferedErrors is undefined
+JavaScript error: https://www.instagram.com/p/CZ3AiSntkjO/?utm_source=ig_web_copy_link, line 52: TypeError: window.__bufferedErrors is undefined
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 567"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:567:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 567, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 567: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+1644683449129	geckodriver	INFO	Listening on 127.0.0.1:53461
+1644683449135	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileYrtnoa"
+
+(firefox:6233): Gtk-WARNING **: 22:15:49.183: Locale not supported by C library.
+	Using the fallback 'C' locale.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1644683450978	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileYrtnoa/search.json.mozlz4", (void 0)))
+1644683454590	Marionette	INFO	Listening on port 42597
+1644683454790	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1644683584120	geckodriver	INFO	Listening on 127.0.0.1:42693
+1644683585126	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileWBNM5p"
+
+(firefox:6583): Gtk-WARNING **: 22:18:05.183: Locale not supported by C library.
+	Using the fallback 'C' locale.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1644683586535	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileWBNM5p/search.json.mozlz4", (void 0)))
+1644683590518	Marionette	INFO	Listening on port 45587
+1644683590610	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.instagram.com/p/CZ3AiSntkjO/?utm_source=ig_web_copy_link, line 52: TypeError: window.__bufferedErrors is undefined
+JavaScript error: https://www.instagram.com/p/CZ3AiSntkjO/?utm_source=ig_web_copy_link, line 52: TypeError: window.__bufferedErrors is undefined
+1644683635951	geckodriver	INFO	Listening on 127.0.0.1:53253
+1644683635974	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileosRSxt"
+
+(firefox:6891): Gtk-WARNING **: 22:18:56.296: Locale not supported by C library.
+	Using the fallback 'C' locale.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1644683638052	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileosRSxt/search.json.mozlz4", (void 0)))
+1644683643073	Marionette	INFO	Listening on port 44963
+1644683643222	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.instagram.com/p/CZ3AiSntkjO/?utm_source=ig_web_copy_link, line 52: TypeError: window.__bufferedErrors is undefined
+JavaScript error: https://www.instagram.com/p/CZ3AiSntkjO/?utm_source=ig_web_copy_link, line 52: TypeError: window.__bufferedErrors is undefined
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 567"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:567:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 567, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 567: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 567"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:567:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 567, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 567: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1644683824308	Marionette	INFO	Stopped listening on port 44963
+1644683825926	Marionette	INFO	Stopped listening on port 45587
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1644683827523	Marionette	INFO	Stopped listening on port 42597
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1644683829214	Marionette	INFO	Stopped listening on port 41647
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1644683836967	geckodriver	INFO	Listening on 127.0.0.1:53465
+1644683836984	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofilefYTVgc"
+
+(firefox:7304): Gtk-WARNING **: 22:22:17.217: Locale not supported by C library.
+	Using the fallback 'C' locale.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1644683839013	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilefYTVgc/search.json.mozlz4", (void 0)))
+1644683843011	Marionette	INFO	Listening on port 36959
+1644683843134	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1644683856344	geckodriver	INFO	Listening on 127.0.0.1:56829
+1644683857350	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileuMJzhK"
+
+(firefox:7555): Gtk-WARNING **: 22:22:37.398: Locale not supported by C library.
+	Using the fallback 'C' locale.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1644683858525	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileuMJzhK/search.json.mozlz4", (void 0)))
+1644683862509	Marionette	INFO	Listening on port 44187
+1644683862919	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1644683873948	Marionette	INFO	Stopped listening on port 44187
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1644683875782	Marionette	INFO	Stopped listening on port 36959
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1644683899602	geckodriver	INFO	Listening on 127.0.0.1:54325
+1644683900608	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofilehwMo57"
+
+(firefox:7830): Gtk-WARNING **: 22:23:20.655: Locale not supported by C library.
+	Using the fallback 'C' locale.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1644683901760	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilehwMo57/search.json.mozlz4", (void 0)))
+1644683905738	Marionette	INFO	Listening on port 35131
+1644683905850	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 567"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:567:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 567, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 567: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+
+(firefox:7830): GLib-GObject-CRITICAL **: 22:30:28.757: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:7830): GLib-GObject-CRITICAL **: 22:30:28.757: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:7830): GLib-GObject-WARNING **: 22:30:28.758: ../glib/gobject/gsignal.c:3599: signal name 'load_complete' is invalid for instance '0x7fb3806fd410' of type 'MaiAtkType139'
+
+(firefox:7830): GLib-GObject-WARNING **: 22:30:28.758: ../glib/gobject/gsignal.c:3599: signal name 'load_complete' is invalid for instance '0x7fb380aba830' of type 'MaiAtkType139'
+
+(firefox:7830): GLib-GObject-WARNING **: 22:30:28.761: ../glib/gobject/gsignal.c:3599: signal name 'load_complete' is invalid for instance '0x7fb38117b6b0' of type 'MaiAtkType139'
+
+(firefox:7830): GLib-GObject-CRITICAL **: 22:30:28.774: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:7830): GLib-GObject-CRITICAL **: 22:30:28.774: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:7830): GLib-GObject-CRITICAL **: 22:30:28.774: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:7830): GLib-GObject-CRITICAL **: 22:30:29.039: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:7830): GLib-GObject-CRITICAL **: 22:30:29.219: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+JavaScript warning: resource://devtools/client/shared/demangle.js, line 0: Successfully compiled asm.js code (total compilation time 282ms)
+
+(firefox:7830): GLib-GObject-CRITICAL **: 22:30:34.840: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:7830): GLib-GObject-CRITICAL **: 22:30:37.606: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:7830): GLib-GObject-CRITICAL **: 22:30:37.749: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+
+(firefox:7830): GLib-GObject-CRITICAL **: 22:32:44.443: g_type_add_interface_static: assertion 'g_type_parent (interface_type) == G_TYPE_INTERFACE' failed
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1644684488664	Marionette	INFO	Stopped listening on port 35131
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1644684498652	geckodriver	INFO	Listening on 127.0.0.1:40983
+1644684499656	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofilerTecnP"
+
+(firefox:8681): Gtk-WARNING **: 22:33:19.707: Locale not supported by C library.
+	Using the fallback 'C' locale.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1644684500807	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilerTecnP/search.json.mozlz4", (void 0)))
+1644684504840	Marionette	INFO	Listening on port 35467
+1644684505063	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 567"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:567:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 567, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 567: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+1644684678102	geckodriver	INFO	Listening on 127.0.0.1:48511
+1644684678108	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileRLxOAo"
+
+(firefox:9072): Gtk-WARNING **: 22:36:18.156: Locale not supported by C library.
+	Using the fallback 'C' locale.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1644684679442	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileRLxOAo/search.json.mozlz4", (void 0)))
+1644684683696	Marionette	INFO	Listening on port 40809
+1644684683841	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1644684714629	geckodriver	INFO	Listening on 127.0.0.1:58099
+1644684714637	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofile3tpE2D"
+
+(firefox:9342): Gtk-WARNING **: 22:36:54.701: Locale not supported by C library.
+	Using the fallback 'C' locale.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1644684715899	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile3tpE2D/search.json.mozlz4", (void 0)))
+1644684720323	Marionette	INFO	Listening on port 39099
+1644684720489	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1644684891653	Marionette	INFO	Stopped listening on port 39099
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1644684894684	Marionette	INFO	Stopped listening on port 35467
+1644684896228	Marionette	INFO	Stopped listening on port 40809
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1644684949448	geckodriver	INFO	Listening on 127.0.0.1:42651
+1644684950420	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileOkhkeG"
+
+(firefox:10114): Gtk-WARNING **: 22:40:51.069: Locale not supported by C library.
+	Using the fallback 'C' locale.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1644684953401	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileOkhkeG/search.json.mozlz4", (void 0)))
+1644684958426	Marionette	INFO	Listening on port 41731
+1644684958608	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1644685037430	Marionette	INFO	Stopped listening on port 41731
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1644685200512	geckodriver	INFO	Listening on 127.0.0.1:56223
+1644685200519	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileTqTOgJ"
+
+(firefox:10524): Gtk-WARNING **: 22:45:00.571: Locale not supported by C library.
+	Using the fallback 'C' locale.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1644685202232	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileTqTOgJ/search.json.mozlz4", (void 0)))
+1644685206787	Marionette	INFO	Listening on port 36931
+1644685207049	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 567"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:567:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 567, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 567: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1644685280865	Marionette	INFO	Stopped listening on port 36931
+1644685284387	geckodriver	INFO	Listening on 127.0.0.1:48165
+1644685285394	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileH4dSwK"
+
+(firefox:10887): Gtk-WARNING **: 22:46:25.447: Locale not supported by C library.
+	Using the fallback 'C' locale.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1644685286655	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileH4dSwK/search.json.mozlz4", (void 0)))
+1644685291288	Marionette	INFO	Listening on port 36553
+1644685291458	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.instagram.com/p/CZ3AiSntkjO/?utm_source=ig_web_copy_link, line 52: TypeError: window.__bufferedErrors is undefined
+JavaScript error: https://www.instagram.com/p/CZ3AiSntkjO/?utm_source=ig_web_copy_link, line 52: TypeError: window.__bufferedErrors is undefined
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 567"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:567:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 567, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 567: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+1644685429572	geckodriver	INFO	Listening on 127.0.0.1:48157
+1644685430577	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileF1Sv0h"
+
+(firefox:11243): Gtk-WARNING **: 22:48:50.640: Locale not supported by C library.
+	Using the fallback 'C' locale.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1644685432121	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileF1Sv0h/search.json.mozlz4", (void 0)))
+1644685436471	Marionette	INFO	Listening on port 36309
+1644685436597	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+JavaScript error: https://www.instagram.com/p/CZ3AiSntkjO/?utm_source=ig_web_copy_link, line 52: TypeError: window.__bufferedErrors is undefined
+JavaScript error: https://www.instagram.com/p/CZ3AiSntkjO/?utm_source=ig_web_copy_link, line 52: TypeError: window.__bufferedErrors is undefined
+1644685514822	Marionette	INFO	Stopped listening on port 36309
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1644685516715	Marionette	INFO	Stopped listening on port 36553
+1644685579675	geckodriver	INFO	Listening on 127.0.0.1:50389
+1644685580680	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileJWwleI"
+
+(firefox:11621): Gtk-WARNING **: 22:51:20.775: Locale not supported by C library.
+	Using the fallback 'C' locale.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1644685582623	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileJWwleI/search.json.mozlz4", (void 0)))
+1644685587521	Marionette	INFO	Listening on port 39289
+1644685587600	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 567"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:567:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 567, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 567: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1644685652265	Marionette	INFO	Stopped listening on port 39289
+1644685653239	geckodriver	INFO	Listening on 127.0.0.1:54039
+1644685654237	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofilezLX2hw"
+
+(firefox:11928): Gtk-WARNING **: 22:52:34.394: Locale not supported by C library.
+	Using the fallback 'C' locale.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1644685656609	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilezLX2hw/search.json.mozlz4", (void 0)))
+1644685661008	Marionette	INFO	Listening on port 39291
+1644685661159	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.instagram.com/p/CZ3AiSntkjO/?utm_source=ig_web_copy_link, line 52: TypeError: window.__bufferedErrors is undefined
+JavaScript error: https://www.instagram.com/p/CZ3AiSntkjO/?utm_source=ig_web_copy_link, line 52: TypeError: window.__bufferedErrors is undefined
+1644685707905	geckodriver	INFO	Listening on 127.0.0.1:60147
+1644685707911	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofilecfzKwP"
+
+(firefox:12226): Gtk-WARNING **: 22:53:27.974: Locale not supported by C library.
+	Using the fallback 'C' locale.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1644685709298	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilecfzKwP/search.json.mozlz4", (void 0)))
+1644685713935	Marionette	INFO	Listening on port 46521
+1644685714073	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1644685718385	Marionette	INFO	Stopped listening on port 39291
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1644685786455	geckodriver	INFO	Listening on 127.0.0.1:47315
+1644685787449	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileWFo2PP"
+
+(firefox:12535): Gtk-WARNING **: 22:54:47.515: Locale not supported by C library.
+	Using the fallback 'C' locale.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1644685788961	Marionette	INFO	Marionette enabled
+1644685789544	Marionette	INFO	Stopped listening on port 46521
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileWFo2PP/search.json.mozlz4", (void 0)))
+1644685795148	Marionette	INFO	Listening on port 37311
+1644685795313	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 567"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:567:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 567, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 567: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+1644686007581	geckodriver	INFO	Listening on 127.0.0.1:36767
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1644686008119	Marionette	INFO	Stopped listening on port 37311
+1644686008586	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofilexWyEXC"
+
+(firefox:12972): Gtk-WARNING **: 22:58:28.753: Locale not supported by C library.
+	Using the fallback 'C' locale.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1644686011714	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilexWyEXC/search.json.mozlz4", (void 0)))
+1644686015950	Marionette	INFO	Listening on port 39795
+1644686016119	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1644686401730	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: error
+1644686460363	geckodriver	INFO	Listening on 127.0.0.1:34851
+1644686461369	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileYw91ou"
+
+(firefox:13447): Gtk-WARNING **: 23:06:01.424: Locale not supported by C library.
+	Using the fallback 'C' locale.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1644686462775	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileYw91ou/search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1644686467211	Marionette	INFO	Listening on port 41995
+1644686467320	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1644686475633	Marionette	INFO	Stopped listening on port 41995
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1644686488211	geckodriver	INFO	Listening on 127.0.0.1:33421
+1644686489218	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileaI4ffr"
+
+(firefox:13723): Gtk-WARNING **: 23:06:29.277: Locale not supported by C library.
+	Using the fallback 'C' locale.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1644686490673	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileaI4ffr/search.json.mozlz4", (void 0)))
+1644686494963	Marionette	INFO	Listening on port 41911
+1644686495102	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1644686527407	geckodriver	INFO	Listening on 127.0.0.1:35479
+1644686528413	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileXB48Dt"
+
+(firefox:14058): Gtk-WARNING **: 23:07:08.894: Locale not supported by C library.
+	Using the fallback 'C' locale.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1644686530713	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileXB48Dt/search.json.mozlz4", (void 0)))
+1644686535360	Marionette	INFO	Listening on port 35045
+1644686535636	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1644686601598	geckodriver	INFO	Listening on 127.0.0.1:34867
+1644686601679	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofile10vcRR"
+
+(firefox:14388): Gtk-WARNING **: 23:08:22.482: Locale not supported by C library.
+	Using the fallback 'C' locale.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1644686604521	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile10vcRR/search.json.mozlz4", (void 0)))
+1644686611602	Marionette	INFO	Listening on port 44413
+1644686611720	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1644686920726	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: error
+1644686934590	Marionette	INFO	Stopped listening on port 44413
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1644686935082	Marionette	INFO	Stopped listening on port 35045
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1644686935825	Marionette	INFO	Stopped listening on port 41911
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1644686936747	Marionette	INFO	Stopped listening on port 39795
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
