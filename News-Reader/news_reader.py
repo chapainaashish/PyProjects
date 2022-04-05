@@ -1,5 +1,4 @@
-# Author: Aashish Sharma
-# Github: https://github.com/aasis2520c
+
 
 # getting news from api and listening it
 
@@ -37,7 +36,7 @@ language = "en"
 
 speech = gTTS(text=news_text, lang=language)
 speech.save(
-    "/home/aashishsharma/Documents/python_journey/dependencies_files/news.mp3")
+    "news.mp3")
 
 os.system(
-    "mpg321 /home/aashishsharma/Documents/python_journey/dependencies_files/news.mp3")
+    "mpg321 news.mp3")

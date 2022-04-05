@@ -14,7 +14,6 @@ import openpyxl
 mybook = openpyxl.load_workbook("/home/aashish/Documents/Python-Journey/Python-Projects/Contact_Manager/contact_book.xlsx")
 sheet = mybook.active
 
-
 def load_workbook(sheet, mybook):
     """Adding different field.get() if there doesn't exist any"""
     cellassign = sheet.cell(1, 1)

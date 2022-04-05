@@ -38,7 +38,7 @@ smtp.login("email", "password")
 # sending message
 smtp.send_message(message)
 
-# closing smpt protocol or object
+# closing smptp protocol or object
 smtp.close()
 
 print("Sent")

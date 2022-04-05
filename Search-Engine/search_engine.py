@@ -1,5 +1,4 @@
-# Author: Aashish Sharma
-# Github: https://github.com/aasis2520c
+
 # Search engine
 
 

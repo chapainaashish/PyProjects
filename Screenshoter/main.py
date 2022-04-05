@@ -1,8 +1,3 @@
-"""
-Take screenshot of current workspace
-Author: Aashish Sharma
-Github: https://github.com/aashish25c
-"""
 
 from tkinter import Button, Label, Tk
 import numpy as np

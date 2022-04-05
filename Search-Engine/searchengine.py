@@ -1,5 +1,4 @@
-# Author: Aashish Sharma
-# Github: https://github.com/aasis2520c
+
 
 # program to take search keyword and print the results as relevance
 import time
