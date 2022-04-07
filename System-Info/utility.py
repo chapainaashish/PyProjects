@@ -1,7 +1,4 @@
-# Author: Aashish Sharma
-# Github: https://github.com/aasis2520c
-
-# System Utilizer which shows system inforamtion in GUI
+# System Utilize which shows system information in GUI
 from tkinter import Tk, Label
 from tkinter.constants import LEFT
 import psutil
@@ -15,27 +12,25 @@ root.title("System Viewer")
 
 # Adding header
 root_text = Label(root, text="System Info Viewer", background="black",
-                  fg="white")
+                  fg="white", font=("Ubuntu", 20, "bold"))
 root_text.pack(anchor="s")
 
-# Intializing Label
+# Initializing Label
 sys_info = Label(root, anchor="w", background="black",
-                 foreground="white", justify=LEFT)
+                 foreground="white", justify=LEFT, font=("Ubuntu", 10,))
 sys_info.pack(anchor="w")
 
 
 def fetchinfo():
     # getting info of system
-
     # Getting CPU usage as percentage
     # time interval should be passed to calculate cpu utilization over period of time
-    cpu_percentage = psutil.cpu_percent(interval=5)
+    cpu_percentage = psutil.cpu_percent(interval=1)
 
     # To get processors count
     total_cpu = psutil.cpu_count()
 
-    # Getting CPU Frequncy
-    # TODO return tuples
+    # Getting CPU Frequency
     cpu_frequency = psutil.cpu_freq()
 
     # Getting Memory usage
@@ -55,10 +50,10 @@ def fetchinfo():
 
     whole_data = f"""
     CPU Usage\t\t\t\t{cpu_percentage} %
-    Total Processors\t\t\t\t{total_cpu}
+    Total Processors\t\t\t{total_cpu}
     Current CPU Frequency\t\t\t{cpu_frequency[0]}
     Minimum CPU Frequency\t\t\t{cpu_frequency[1]}
-    Maximum CPU Frequency\t\t\t{cpu_frequency[2]}
+    Maximum CPU Frequency\t\t{cpu_frequency[2]}
 
     Memory Usage\t\t\t\t{memory[2]} %
     Total Memory\t\t\t\t{(memory[0]//1024)//1024} MiB
@@ -76,12 +71,15 @@ def fetchinfo():
     Used Disk\t\t\t\t{((disk[1]//1024)//1024)//1024} GiB
     Available Disk\t\t\t\t{((disk[2]//1024)//1024)//1024} GiB
     """
-    print(whole_data, end=' \r')
-    # Calling function again and again to get live info
-    sys_info.config(text=whole_data,)
-    sys_info.after(1, fetchinfo)
+    return whole_data
+
+
+def update_info():
+    data = fetchinfo()
+    sys_info.config(text=data,)
+    sys_info.after(1, update_info)
     sys_info.update()
 
 
-fetchinfo()
+update_info()
 root.mainloop()
