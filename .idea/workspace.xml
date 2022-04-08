@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e1030a52-2958-4ab3-b37e-6646e35aa7b1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/System-Info/utility.py" beforeDir="false" afterPath="$PROJECT_DIR$/System-Info/utility.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +29,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Python.rough">
+  <component name="RunManager" selected="Python.rough (1)">
     <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Python-Projects" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -97,6 +96,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="rough (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python-Projects" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Digital-Clock" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Digital-Clock/rough.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="rough" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python-Projects" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -124,9 +145,11 @@
       <item itemvalue="Python.clock" />
       <item itemvalue="Python.rough" />
       <item itemvalue="Python.main" />
+      <item itemvalue="Python.rough (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.rough (1)" />
         <item itemvalue="Python.rough" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.clock" />
@@ -143,6 +166,7 @@
       <updated>1648883856604</updated>
       <workItem from="1648883873873" duration="593000" />
       <workItem from="1649311276315" duration="2342000" />
+      <workItem from="1649340487329" duration="1398000" />
     </task>
     <servers />
   </component>
@@ -161,6 +185,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Python_Projects$clock.coverage" NAME="clock Coverage Results" MODIFIED="1648884292935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Digital-Clock" />
+    <SUITE FILE_PATH="coverage/Python_Projects$rough__1_.coverage" NAME="rough (1) Coverage Results" MODIFIED="1649341843984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Digital-Clock" />
     <SUITE FILE_PATH="coverage/Python_Projects$Unnamed.coverage" NAME="Unnamed Coverage Results" MODIFIED="1648884187337" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Python_Projects$rough.coverage" NAME="rough Coverage Results" MODIFIED="1649313507784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/System-Info" />
     <SUITE FILE_PATH="coverage/Python_Projects$main.coverage" NAME="main Coverage Results" MODIFIED="1649313047291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Notepad(GUI)" />
