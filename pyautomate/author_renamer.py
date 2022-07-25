@@ -1,6 +1,3 @@
-# Author: Aashish Sharma
-# Github: https://github.com/aashish25c
-
 # This was just automation tool made to add author name at file header
 
 import os
