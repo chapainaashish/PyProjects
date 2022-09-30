@@ -6,10 +6,21 @@ import calendar
 from tkinter import Entry, Tk, Label, Button, IntVar
 # Customizing root window
 root = Tk()
-root.geometry("200x150")
+root.geometry("200x200")
 root.configure(background="black")
 root.title("Calendar")
 
+class month:
+    def __init__(self, root, year, id):
+        self.month = Label(root, 
+            text=calendar.month(year, id, w=3, l=1), 
+            justify="left", anchor="n",
+            foreground="white", background="black", font=("consolas", "11", "bold"))
+    def print_month(self, r, c):
+        self.month.grid(row=r, column= c, sticky="n", pady=10, padx=10)
+
+def close(event):
+    quit()
 
 def year_submit():
     # Customizing new window and displaying calendar
@@ -18,10 +29,12 @@ def year_submit():
     new_root.configure(background="black")
     new_root.title(f"Calendar {year_field.get()}")
 
-    # Adding label and displaying it
-    year_calendar = Label(new_root, text=calendar.calendar(
-        int(year_field.get())), foreground="white", background="black", font=("consolas", "12", "bold"))
-    year_calendar.pack()
+    theyear = int(year_field.get())
+    #
+    months=[]
+    for m in range(1,13):
+        months.append(month(new_root, theyear, m))
+        months[m-1].print_month((m-1) // 3, (m-1) % 3)
 
 
 # Adding header
@@ -43,6 +56,7 @@ year_field.pack(anchor="s")
 submit_button = Button(root, text="Enter", background="black",
                        foreground="white", command=year_submit)
 submit_button.pack(anchor="s", pady=10)
-
+Button(root, text="Quit", command=root.quit).pack()
+root.bind('<Escape>',close)
 
 root.mainloop()
