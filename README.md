@@ -28,6 +28,8 @@ You can contribute by adding new scripts, improving current scripts or Documenta
 - [x] Fork this repository to your account
 - [x] Clone the repository on your local machine
 - [x] Do your contribution [You can optimize existing projects or add your new projects]
-- [x] Add your file in proper folder(lowercase) with README.md in it. Add requirements.txt if needed.
+- [x] If you are adding new project, first create a new folder with project name
+- [x] Add your projects file in project folder(use '-' for space) with README.md in it. Add requirements.txt if needed.
 - [x] Commit the change and make new pull request
+
 
