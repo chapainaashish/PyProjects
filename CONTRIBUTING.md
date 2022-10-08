@@ -2,9 +2,13 @@
 
 **How to Contribute?**
 
-1. First, Fork this repository 
+1. Fork this repository 
 
-2. Second, clone the repository and do necessary changes
+2. Clone the repository
 
-3. Third, Make a pull request
+3. Do necessary changes and do what you can contribute
+
+3. Push changes and make pull request
+
+
 
