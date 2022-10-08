@@ -1,4 +1,4 @@
-<h1 align=center> Python Projects </h1>
+<h1 align=center> PyProjects </h1>
 
 <h2 align=center>A collection of Python Mini Projects</h2>
 
