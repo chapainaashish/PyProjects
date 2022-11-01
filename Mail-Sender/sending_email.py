@@ -1,6 +1,3 @@
-# Author: Aashish Sharma
-# Github: https://github.com/aasis2520c
-
 from email.mime.multipart import MIMEMultipart
 
 # to send text

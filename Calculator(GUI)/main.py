@@ -1,4 +1,4 @@
-from tkinter import Button, Entry, Frame,  StringVar, Tk
+from tkinter import Button, Entry, Frame, StringVar, Tk
 from tkinter.constants import LEFT
 
 
@@ -16,8 +16,13 @@ class Calculator(Tk):
         global entry_value
         entry_value = StringVar()
         global entry_screen
-        entry_screen = Entry(self, foreground="white", background="black", textvariable=entry_value,
-                             font=("lucida, 30"))
+        entry_screen = Entry(
+            self,
+            foreground="white",
+            background="black",
+            textvariable=entry_value,
+            font=("lucida, 30"),
+        )
         entry_screen.pack(fill="x", padx=8, pady=8, ipady=10)
 
     def __click(self, event):
@@ -46,22 +51,29 @@ class Calculator(Tk):
 
     def create_button(self):
         """Creates Calculator Buttons"""
-        buttons = [["\tC       ", "/"],
-                   ["7", "8", "9", "*"],
-                   ["4", "5", "6", "+"],
-                   [" 1", "2", "3", "- "],
-                   ["0", ".", "%", " ="]]
+        buttons = [
+            ["\tC       ", "/"],
+            ["7", "8", "9", "*"],
+            ["4", "5", "6", "+"],
+            [" 1", "2", "3", "- "],
+            ["0", ".", "%", " ="],
+        ]
         for row in buttons:
             frame = Frame(self, background="black")
             frame.pack()
             for button in row:
                 button_key = Button(
-                    frame, background="black", foreground="white", text=button, font=("ubuntu, 15 bold"))
-                button_key.pack(side=LEFT, padx=3, pady=5,  ipadx=13, ipady=10)
+                    frame,
+                    background="black",
+                    foreground="white",
+                    text=button,
+                    font=("ubuntu, 15 bold"),
+                )
+                button_key.pack(side=LEFT, padx=3, pady=5, ipadx=13, ipady=10)
                 button_key.bind("<Button-1>", self.__click)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     window = Calculator()
     window.entry_create()
     window.create_button()

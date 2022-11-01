@@ -1,6 +1,3 @@
-# Author: Aashish Sharma
-# Github: https://github.com/aasis2520c
-
 # searching in google  using selenium in python
 # the difference between "element" and "elements"
 # element - string
@@ -14,7 +11,6 @@ import time
 
 browser = Firefox()
 
-# opening 'duckduckgo' search page
 browser.get("https://www.google.com")
 
 search = browser.find_element_by_name("q")
