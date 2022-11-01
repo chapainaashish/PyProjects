@@ -11,16 +11,9 @@
 </p>
 
 
-## Hacktoberfest 2022 Update
-
-**See full details and guidelines on**
-  * [Hacktober cheasheat](https://github.com/chapainaashish/Python-Projects/CONTRIBUTING.md) 
-  * [Official website](https://hacktoberfest.digitalocean.com/)
-
-
 <h1 align=center> How to Contribute 🤔 </h1>
 
-You can contribute by adding new scripts, improving current scripts or Documentation. Here are some Instructions before making a Pull Request
+You can contribute by adding new python projects, improving current prjects[code & documentation]. Here are some Instructions before making a Pull Request
 
 ## Here are the steps to Make contribute 👣
 
@@ -29,7 +22,7 @@ You can contribute by adding new scripts, improving current scripts or Documenta
 - [x] Clone the repository on your local machine
 - [x] Do your contribution [You can optimize existing projects or add your new projects]
 - [x] If you are adding new project, first create a new folder with project name
-- [x] Add your projects file in project folder(use '-' for space) with README.md in it. Add requirements.txt if needed.
+- [x] Add your projects files in project folder(use '-' for space) with README.md in it. Add requirements.txt if needed.
 - [x] Commit the change and make new pull request
 
 
