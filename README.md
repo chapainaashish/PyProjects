@@ -13,9 +13,9 @@
 
 <h1 align=center> How to Contribute 🤔 </h1>
 
-You can contribute by adding new python projects, improving current prjects[code & documentation]. Here are some Instructions before making a Pull Request
+You can contribute by adding new python projects, improving current projects[code & documentation]. Here are some Instructions before making a Pull Request
 
-## Here are the steps to Make contribute 👣
+## Here are the steps to contribute 👣
 
 
 - [x] Fork this repository to your account
