@@ -1,10 +1,9 @@
-# Author: Aashish Sharma
-# Github: https://github.com/aasis2520c
-
 # fake multipication table
+
 
 def wrongfunc(number):
     import random
+
     wronglist = []
     wrongmultipier = random.randint(3, 9)
     wrongnumber = random.randint(2, 8)

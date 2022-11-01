@@ -3,13 +3,18 @@
 import os
 
 files_path = str(input("Enter the directory files_path: "))
-sentences = ['# Author: Aashish Sharma\n',
-             '# Github: https://github.com/aashish25c\n', '\n']
+sentences = [
+    "# Author: Aashish Chapain\n",
+    "# Github: https://github.com/chapainaashish\n",
+    "\n",
+]
 
 for file in os.listdir(files_path):
     if os.path.splitext(file)[1] == ".py":
         garbage_file = "dummy_file.py"
-        with open(files_path + file, "r") as read_object, open(files_path + garbage_file, "a") as write_object:
+        with open(files_path + file, "r") as read_object, open(
+            files_path + garbage_file, "a"
+        ) as write_object:
             for line in sentences:
                 write_object.write(line)
 

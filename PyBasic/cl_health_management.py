@@ -1,8 +1,4 @@
-# Author: Aashish Sharma
-# Github: https://github.com/aasis2520c
-
 # Health management system using command line
-# Programmer: Aashish Sharma
 
 from datetime import datetime
 from pathlib import Path
@@ -13,9 +9,10 @@ def time_date():
 
 
 def health(user_action):
-    """ health management function """
+    """health management function"""
     user_file = Path(
-        f"dependencies_files/{user_name}_{user_choice}.txt")  # providing path
+        f"dependencies_files/{user_name}_{user_choice}.txt"
+    )  # providing path
 
     # reading user file txt
     if user_action == 0:
@@ -28,10 +25,13 @@ def health(user_action):
         print(f"You have successfully written {user_input} as {user_choice}")
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     user_name = input("Please, Enter your name: ")
     print(f"Welcome to Health Management System '{user_name.capitalize()}'")
     user_choice = input("Enter your activities to access them: ")
-    user_action = int(input(
-        f"Enter '0' to show your {user_choice} and '1' for create your {user_choice}: "))
+    user_action = int(
+        input(
+            f"Enter '0' to show your {user_choice} and '1' for create your {user_choice}: "
+        )
+    )
     health(user_action)

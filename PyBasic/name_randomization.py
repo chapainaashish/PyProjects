@@ -1,7 +1,7 @@
 # Program that randomizes persons last name with another person first name
-# Programmer: Aashish Sharma
 
 import random
+
 userwish = int(input("Enter the number of person you want to add: "))
 firstname = []
 lastname = []
